@@ -55,14 +55,13 @@ Then provide a written response that does all three of the following:
 
 Identifies the name of the list being used in this response
 
-**TODO: Write, "The list is stored in the variable {INSERT VARIABLE NAME
-HERE}"**
+ "The list is stored in the variable {this.lettersGuessed}"
 
 ### 3b iv.
 
 Describes what the data contained in the list represents in your program
 
-**TODO: Write a sentence describing what is stored in the list**
+In the list, the different guesses the player makes are stored. 
 
 ### 3b v.
 
@@ -70,8 +69,7 @@ Explains how the selected list manages complexity in your program code by
 explaining why your program code could not be written, or how it would be
 written differently, if you did not use the list.
 
-**TODO: Explain why it would be very difficult (or impossible) to write 
-the guessing game without using the list.**
+Without the ability to store each guess the player makes, the code could not keep track of how many guesses were made or if you already guessed a specific letter. The code would then probably have to ask if each individual letter was already guessed which would make the code much longer and more complex than it needs to be. 
 
 ## 3c.
 
@@ -120,32 +118,32 @@ Provide a written response that does all three of the following:
 
 Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute.
 
-First call:
+First call: 
 
-**TODO: Complete this section**
+CountLetter('#')
 
 Second call:
 
-**TODO: Complete this section**
+CountLetter('D')
+
 
 ### 3d ii.
 
 Describes what condition(s) is being tested by each call to the procedure
 
-Condition(s) tested by the first call:
+Condition(s) tested by the first call: The condition tested by the first call is checking if the input isn't a letter. 
  
-**TODO: Complete this section**
 
 Condition(s) tested by the second call:
 
-**TODO: Complete this section**
+The second condition that is tested is checking if it is a letter and counting the number of times it shows up
 
 ### 3d iii.
 
-Result of the first call:
+Result of the first call: Throws an error
 
-**TODO: Complete this section**
 
-Result of the second call:
 
-**TODO: Complete this section**
+Result of the second call: Spits out the number of times the letter shows up. 
+
+
